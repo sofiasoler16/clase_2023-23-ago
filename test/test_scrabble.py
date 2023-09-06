@@ -1,7 +1,7 @@
 import random
 import unittest
 
-from app.juego import Tile, BagTiles, YaHaySuficientes, Player, ScrabbleGame, Cell, Board
+from game.models import Tile, BagTiles, YaHaySuficientes, Player, ScrabbleGame, Cell, Board
 
 from unittest.mock import patch
 
